@@ -53,7 +53,6 @@ function App() {
               <h2>CONSULTING</h2>
             </div>
           </div>
-          <h2 className="capabilities-title">CAPABILITIES STATEMENT</h2>
         </div>
       </section>
 
