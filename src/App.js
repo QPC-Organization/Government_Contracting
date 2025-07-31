@@ -163,7 +163,7 @@ function App() {
             <div className="contact-details">
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
-                <a href="mailto:gov.contracts@qpc.tech">gov.contracts@qpc.tech</a>
+                <a href="mailto:gov.contracts@qpc.tech">gov.contracts@qpulse.tech</a>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
