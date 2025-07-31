@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './index.css';
 import qpcLogo from './qpclogo2.jpg';
 import ClientsPerformance from './ClientsPerformance';
-import QPCCapabilitiesPDF from './QPC-Capabilities-Statement.pdf';
+const QPCCapabilitiesPDF = '/QPC-Capabilities-Statement.pdf';
 
 function App() {
   useEffect(() => {
