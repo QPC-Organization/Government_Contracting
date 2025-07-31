@@ -116,9 +116,6 @@ function App() {
         </div>
       </section>
 
-      {/* Key Clients and Past Performance */}
-      <ClientsPerformance />
-
       {/* NAICS Codes Section */}
       <section className="content-section naics-section">
         <div className="section-content">
@@ -154,6 +151,9 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Key Clients and Past Performance */}
+      <ClientsPerformance />
 
       {/* Contact Section */}
       <section className="content-section contact-section">
