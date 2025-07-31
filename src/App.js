@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './index.css';
 import qpcLogo from './qpclogo2.jpg';
 import ClientsPerformance from './ClientsPerformance';
+import QPCCapabilitiesPDF from './QPC-Capabilities-Statement.pdf';
 
 function App() {
   useEffect(() => {
@@ -53,6 +54,7 @@ function App() {
               <h2>CONSULTING</h2>
             </div>
           </div>
+          <h2 className="capabilities-title">CAPABILITIES</h2>
         </div>
       </section>
 
@@ -115,6 +117,9 @@ function App() {
         </div>
       </section>
 
+      {/* Key Clients and Past Performance */}
+      <ClientsPerformance />
+
       {/* NAICS Codes Section */}
       <section className="content-section naics-section">
         <div className="section-content">
@@ -151,9 +156,6 @@ function App() {
         </div>
       </section>
 
-      {/* Key Clients and Past Performance */}
-      <ClientsPerformance />
-
       {/* Contact Section */}
       <section className="content-section contact-section">
         <div className="section-content">
@@ -166,7 +168,7 @@ function App() {
             <div className="contact-details">
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
-                <a href="mailto:gov.contracts@qpc.tech">gov.contracts@qpulse.tech</a>
+                <a href="mailto:gov.contracts@qpulse.tech">gov.contracts@qpulse.tech</a>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
@@ -175,6 +177,10 @@ function App() {
               <div className="contact-item">
                 <span className="contact-icon">🌐</span>
                 <a href="https://www.qpulse.tech" target="_blank" rel="noopener noreferrer">www.qpulse.tech</a>
+              </div>
+              <div className="contact-item">
+                <span className="contact-icon">📄</span>
+                <a href={QPCCapabilitiesPDF} download="QPC-Capabilities-Statement.pdf">Download Capabilities Statement (PDF)</a>
               </div>
             </div>
           </div>
