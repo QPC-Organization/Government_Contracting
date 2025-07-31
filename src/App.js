@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './index.css';
 import qpcLogo from './qpc_logojpg.jpg';
+import ClientsPerformance from './ClientsPerformance';
 
 function App() {
   useEffect(() => {
@@ -114,6 +115,9 @@ function App() {
           </ul>
         </div>
       </section>
+
+      {/* Key Clients and Past Performance */}
+      <ClientsPerformance />
 
       {/* NAICS Codes Section */}
       <section className="content-section naics-section">
