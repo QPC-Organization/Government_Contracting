@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './index.css';
-import qpcLogo from './qpc_logojpg.jpg';
+import qpcLogo from './qpclogo2.jpg';
 import ClientsPerformance from './ClientsPerformance';
 
 function App() {
